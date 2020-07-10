@@ -1,0 +1,2 @@
+# icore-noshot
+FiveM-Resource
