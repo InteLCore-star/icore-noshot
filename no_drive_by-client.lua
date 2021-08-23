@@ -14,6 +14,12 @@ ESX = nil
 local isInVehicle = false
 local hasShownMessage = false
 
+AddEventHandler('onResourceStart', function(resourceName)
+    if ("icore-noshot" ~= resourceName) then
+      return
+    end
+end)
+
 Citizen.CreateThread(function()
 	while ESX == nil do
 		TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
