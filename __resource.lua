@@ -9,3 +9,7 @@ version '1.1.0'
 client_scripts {
 	'client/no_drive_by-client.lua'
 }
+
+server_script {
+	'server.lua'
+}
