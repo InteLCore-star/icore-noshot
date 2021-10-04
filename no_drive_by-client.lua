@@ -56,7 +56,7 @@ end)
 
 function ShowNotice()
 	if not hasShownMessage then
-		ESX.ShowNotification(_U('nodrive_action_disabled'))
+		ESX.ShowNotification('SHOT THE VEH ?')
 		hasShownMessage = true
 	end
 end
