@@ -1,2 +1,1 @@
-# icore-noshot
-FiveM-Resource
+Disable shot by vehicle
